@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import classNames from "../utils/class-names";
 import useInterval from "../utils/useInterval";
 import Session from "./Session";
-import { minutesToDuration } from "../utils/duration";
+
 import TimerDisplay from "./TimerDisplay";
 
 const INITIAL_STATE = {
